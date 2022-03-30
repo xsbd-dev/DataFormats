@@ -87,6 +87,14 @@
           <property role="1ohaCP" value="string" />
         </node>
       </node>
+      <node concept="1aFib6" id="4g9Gb0uqRj2" role="1aFibs">
+        <node concept="1ohaCM" id="4g9Gb0uqRk2" role="1aFib1">
+          <property role="1ohaCP" value="keyComplexStr" />
+        </node>
+        <node concept="1ohaCM" id="4g9Gb0uqRk4" role="1aFib3">
+          <property role="1ohaCP" value="string with spec!al chars\" />
+        </node>
+      </node>
       <node concept="1aFib6" id="2awvSDiXzkF" role="1aFibs">
         <node concept="1ohaCM" id="2awvSDiXzu3" role="1aFib1">
           <property role="1ohaCP" value="keySeq" />
@@ -100,6 +108,37 @@
           <node concept="1lzjyd" id="2awvSDiXznP" role="1aFibb">
             <node concept="1ohaCM" id="2awvSDiXznV" role="1lzjyc">
               <property role="1ohaCP" value="seqItem 2" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1aFib6" id="4g9Gb0uuw9T" role="1aFibs">
+        <node concept="1ohaCM" id="4g9Gb0uuwaW" role="1aFib1">
+          <property role="1ohaCP" value="keySeqNest" />
+        </node>
+        <node concept="1aFibe" id="4g9Gb0uuwaY" role="1aFib3">
+          <node concept="1lzjyd" id="4g9Gb0uuwb0" role="1aFibb">
+            <node concept="1aFib5" id="4g9Gb0uuwb4" role="1lzjyc">
+              <node concept="1aFib6" id="4g9Gb0uuwb6" role="1aFibs">
+                <node concept="1ohaCM" id="4g9Gb0uuwbc" role="1aFib1">
+                  <property role="1ohaCP" value="nestedMapSeq1" />
+                </node>
+                <node concept="1ohaCM" id="4g9Gb0uuwbe" role="1aFib3">
+                  <property role="1ohaCP" value="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1lzjyd" id="4g9Gb0uuwbg" role="1aFibb">
+            <node concept="1aFib5" id="4g9Gb0uuwbt" role="1lzjyc">
+              <node concept="1aFib6" id="4g9Gb0uuwbv" role="1aFibs">
+                <node concept="1ohaCM" id="4g9Gb0uuwb_" role="1aFib1">
+                  <property role="1ohaCP" value="nestedMapSeq2" />
+                </node>
+                <node concept="1ohaCM" id="4g9Gb0uuwbB" role="1aFib3">
+                  <property role="1ohaCP" value="value" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -160,16 +199,39 @@
           <property role="1aFibT" value="0x1" />
         </node>
       </node>
-      <node concept="1aFib6" id="2awvSDiXzpp" role="1aFibs">
-        <node concept="1ohaCM" id="2awvSDiXzul" role="1aFib1">
-          <property role="1ohaCP" value="keyMap" />
+      <node concept="1aFib6" id="4g9Gb0utCSG" role="1aFibs">
+        <node concept="1ohaCM" id="4g9Gb0utCSH" role="1aFib1">
+          <property role="1ohaCP" value="keyMap1" />
         </node>
-        <node concept="1aFib5" id="2awvSDiXzsZ" role="1aFib3">
-          <node concept="1aFib6" id="2awvSDiXzt1" role="1aFibs">
-            <node concept="1ohaCM" id="2awvSDiXzun" role="1aFib1">
-              <property role="1ohaCP" value="kepMapNest" />
+        <node concept="1aFib5" id="4g9Gb0utCSI" role="1aFib3">
+          <node concept="1aFib6" id="4g9Gb0utCSJ" role="1aFibs">
+            <node concept="1ohaCM" id="4g9Gb0utCSK" role="1aFib1">
+              <property role="1ohaCP" value="kepMapNest1" />
             </node>
-            <node concept="1ohaCM" id="2awvSDiXzt7" role="1aFib3">
+            <node concept="1ohaCM" id="4g9Gb0utCSL" role="1aFib3">
+              <property role="1ohaCP" value="mapValue" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1aFib6" id="4g9Gb0utCSw" role="1aFibs">
+        <node concept="1ohaCM" id="4g9Gb0utCSx" role="1aFib1">
+          <property role="1ohaCP" value="keyMap2" />
+        </node>
+        <node concept="1aFib5" id="4g9Gb0utCSy" role="1aFib3">
+          <node concept="1aFib6" id="4g9Gb0utCSz" role="1aFibs">
+            <node concept="1ohaCM" id="4g9Gb0utCS$" role="1aFib1">
+              <property role="1ohaCP" value="kepMapNest2" />
+            </node>
+            <node concept="1ohaCM" id="4g9Gb0utCS_" role="1aFib3">
+              <property role="1ohaCP" value="mapValue" />
+            </node>
+          </node>
+          <node concept="1aFib6" id="4g9Gb0utCSA" role="1aFibs">
+            <node concept="1ohaCM" id="4g9Gb0utCSB" role="1aFib1">
+              <property role="1ohaCP" value="kepMapNest3" />
+            </node>
+            <node concept="1ohaCM" id="4g9Gb0utCSC" role="1aFib3">
               <property role="1ohaCP" value="mapValue" />
             </node>
           </node>

@@ -1,0 +1,22 @@
+---
+keyStr: string
+keyComplexStr: "string with spec!al chars\"
+keySeq: 
+  - seqItem 1
+  - seqItem 2
+keyMNaN: -.NaN
+keyMInf: -.inf
+keyFl: 0.3
+keyNaN: .NaN
+keyInf: .inf
+keyBInt: 0b1
+keyOInt: 0o1
+keyXInt: 0x1
+keyMap1: 
+  kepMapNest1: mapValue
+keyMap2: 
+  kepMapNest2: mapValue
+  kepMapNest3: mapValue
+keyBoolF: false
+keyNull: null
+keyBoolT: true
