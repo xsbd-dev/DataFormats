@@ -4,6 +4,19 @@ keyComplexStr: "string with spec!al chars\"
 keySeq: 
   - seqItem 1
   - seqItem 2
+keySeqNest: 
+  - nestedMapSeq1: value
+  - nestedMapSeq2: value
+keyMap1: 
+  kepMapNest1: mapValue
+keyMap2: 
+  kepMapNest2: mapValue
+  kepMapNest3: mapValue
+keyMap3: 
+  - keyMap4: 
+    - nestedNestedMapSeq1
+    - nestedNestedMapSeq2
+  - keyMap5: nestedMapSeq3
 keyMNaN: -.NaN
 keyMInf: -.inf
 keyFl: 0.3
@@ -12,11 +25,7 @@ keyInf: .inf
 keyBInt: 0b1
 keyOInt: 0o1
 keyXInt: 0x1
-keyMap1: 
-  kepMapNest1: mapValue
-keyMap2: 
-  kepMapNest2: mapValue
-  kepMapNest3: mapValue
 keyBoolF: false
-keyNull: null
 keyBoolT: true
+keyNull: null
+keyTime: 2002-03-04

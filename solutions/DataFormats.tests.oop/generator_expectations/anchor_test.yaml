@@ -1,0 +1,5 @@
+---
+keyAnchQ: &anchValQ "anchor'"
+keyAnchDQ: &anchValDQ "\"anchor"
+*anchValQ: string
+*anchValDQ: string

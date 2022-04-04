@@ -8,6 +8,7 @@
       <modulePath path="$PROJECT_DIR$/languages/DataFormats.YAML/DataFormats.YAML.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DataFormats.core/DataFormats.core.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.build/DataFormats.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DataFormats.gen.runtime/DataFormats.gen.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.pluginSolution/DataFormats.pluginSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.sandbox/DataFormats.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.tests.oop/DataFormats.tests.oop.msd" folder="" />
