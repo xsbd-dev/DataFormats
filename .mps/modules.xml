@@ -12,6 +12,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.pluginSolution/DataFormats.pluginSolution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.sandbox/DataFormats.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.tests.oop/DataFormats.tests.oop.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DataFormats.tests/DataFormats.tests.msd" folder="" />
     </projectModules>
   </component>
 </project>
