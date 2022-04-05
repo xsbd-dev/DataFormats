@@ -22,6 +22,7 @@
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
@@ -98,6 +99,27 @@
       <property role="TrG5h" value="containsAny" />
       <node concept="3Tm1VV" id="5rcmwI4Ffh7" role="1B3o_S" />
       <node concept="3clFbS" id="5rcmwI4Ffh8" role="3clF47">
+        <node concept="3clFbJ" id="74Xv6x0xUIW" role="3cqZAp">
+          <node concept="3clFbS" id="74Xv6x0xUIY" role="3clFbx">
+            <node concept="3cpWs6" id="74Xv6x0xVJS" role="3cqZAp">
+              <node concept="3clFbT" id="74Xv6x0xVKm" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="22lmx$" id="74Xv6x0xVqM" role="3clFbw">
+            <node concept="3clFbC" id="74Xv6x0xVHZ" role="3uHU7w">
+              <node concept="10Nm6u" id="74Xv6x0xVIZ" role="3uHU7w" />
+              <node concept="37vLTw" id="74Xv6x0xVzP" role="3uHU7B">
+                <ref role="3cqZAo" node="5rcmwI4FfjR" resolve="searchChars" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="74Xv6x0xVmG" role="3uHU7B">
+              <node concept="37vLTw" id="74Xv6x0xUNF" role="3uHU7B">
+                <ref role="3cqZAo" node="5rcmwI4Ffi$" resolve="searchString" />
+              </node>
+              <node concept="10Nm6u" id="74Xv6x0xVq7" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="5rcmwI4Ge1Z" role="3cqZAp">
           <node concept="3clFbS" id="5rcmwI4Ge21" role="3clFbx">
             <node concept="3cpWs6" id="5rcmwI4Gg2A" role="3cqZAp">
