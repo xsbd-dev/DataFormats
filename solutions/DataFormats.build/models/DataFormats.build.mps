@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <import index="grdo" ref="r:25d923c0-8d2c-4602-a437-9a4b2b086415(DataFormats.gen.runtime.yamlhelpers)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -200,7 +201,7 @@
       <node concept="m$_yC" id="13dbYsUVqrZ" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4O0hKJpjIV3" resolve="jetbrains.mps.ide.devkit" />
       </node>
-      <node concept="m$_yC" id="13dbYsUVqs9" role="m$_yJ">
+      <node concept="m$_yC" id="189ZqPIPCQe" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:RJsmGEieyQ" resolve="jetbrains.mps.vcs" />
       </node>
       <node concept="3_J27D" id="1XqQsPlVD8_" role="m$_yQ">
@@ -360,7 +361,6 @@
       <node concept="1E1JtD" id="1XqQsPlXHf5" role="2G$12L">
         <property role="TrG5h" value="DataFormats.YAML" />
         <property role="3LESm3" value="35085f04-cc10-4a4a-9db8-839f57a627f1" />
-        <property role="BnDLt" value="true" />
         <node concept="55IIr" id="1XqQsPlXHf6" role="3LF7KH">
           <node concept="2Ry0Ak" id="1XqQsPlXHf7" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
@@ -408,11 +408,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1XqQsPlXHfn" role="3bR37C">
-          <node concept="3bR9La" id="1XqQsPlXHfo" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1XqQsPlXHfp" role="3bR37C">
           <node concept="3bR9La" id="1XqQsPlXHfq" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
@@ -423,14 +418,14 @@
             <ref role="3bR37D" node="1XqQsPlWOEY" resolve="DataFormats.core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1XqQsPlYJwX" role="3bR37C">
-          <node concept="3bR9La" id="1XqQsPlYJx9" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1YAozCvot2i" resolve="jetbrains.mps.baseLanguage.regexp" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1XqQsPlYJxm" role="3bR37C">
           <node concept="3bR9La" id="1XqQsPlYJx$" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5rcmwI4GAUk" role="3bR37C">
+          <node concept="3bR9La" id="5rcmwI4GAUl" role="1SiIV1">
+            <ref role="3bR37D" node="5rcmwI4GAJK" resolve="DataFormats.gen.runtime" />
           </node>
         </node>
       </node>
@@ -596,6 +591,43 @@
               <node concept="2Ry0Ak" id="1XqQsPlWmKl" role="2Ry0An">
                 <property role="2Ry0Am" value="DataFormats.pluginSolution.msd" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="5rcmwI4GAJK" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="DataFormats.gen.runtime" />
+        <property role="3LESm3" value="3bc81720-d239-49cc-8293-ff86b69d6ba4" />
+        <node concept="55IIr" id="5rcmwI4GAJN" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5rcmwI4GAPV" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="5rcmwI4GAQ0" role="2Ry0An">
+              <property role="2Ry0Am" value="DataFormats.gen.runtime" />
+              <node concept="2Ry0Ak" id="5rcmwI4GAQ5" role="2Ry0An">
+                <property role="2Ry0Am" value="DataFormats.gen.runtime.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="5rcmwI4GAQz" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="5rcmwI4GAQ$" role="1HemKq">
+            <node concept="55IIr" id="5rcmwI4GAQv" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5rcmwI4GAQw" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5rcmwI4GAQx" role="2Ry0An">
+                  <property role="2Ry0Am" value="DataFormats.gen.runtime" />
+                  <node concept="2Ry0Ak" id="5rcmwI4GAQy" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="5rcmwI4GAQ_" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
